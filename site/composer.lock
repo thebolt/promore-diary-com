@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a561a9911983aeb80971afd6edae0bcf",
+    "content-hash": "4292c496bb4ebb92f1b3fee6bd88372c",
     "packages": [
         {
             "name": "composer/installers",
@@ -470,15 +470,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "3.1.2",
+            "version": "2.6.14",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/3.1.2"
+                "reference": "tags/2.6.14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.1.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.2.6.14.zip",
                 "reference": null,
                 "shasum": null
             },

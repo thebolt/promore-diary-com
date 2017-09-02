@@ -5,7 +5,7 @@
 wordpress_sites:
   promore-diary.com:
     site_hosts:
-      - canonical: www.promore-diary.com
+      - canonical: www2.promore-diary.com
         redirects:
           - promore-diary.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
