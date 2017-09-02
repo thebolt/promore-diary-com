@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c06274944d26ec4135806db72dc79f4e",
+    "content-hash": "d40b94d943f5dbddfcaf0948b63cbe87",
     "packages": [
         {
             "name": "composer/installers",
@@ -410,15 +410,15 @@
         },
         {
             "name": "wpackagist-plugin/bootstrap-3-shortcodes",
-            "version": "3.3.10",
+            "version": "3.3.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/bootstrap-3-shortcodes/",
-                "reference": "tags/3.3.10"
+                "reference": "tags/3.3.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/bootstrap-3-shortcodes.3.3.10.zip",
+                "url": "https://downloads.wordpress.org/plugin/bootstrap-3-shortcodes.3.3.8.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -490,15 +490,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "2.6.14",
+            "version": "2.2.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/2.6.14"
+                "reference": "tags/2.2.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.2.6.14.zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.2.2.8.zip",
                 "reference": null,
                 "shasum": null
             },
