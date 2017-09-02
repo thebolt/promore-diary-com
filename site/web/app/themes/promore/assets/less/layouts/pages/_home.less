@@ -1,0 +1,84 @@
+.jumbotron {
+	margin: @jumbotron-padding;
+
+	background-image: url('../img/front-bg.png');
+
+	h1, .h1 {
+		font-size: (@font-size-base * 3.5);
+		font-weight: 700;
+		text-align: center;
+
+		padding-top: 15px;
+		padding-bottom: 15px;
+		margin-top: 5px;
+
+		background-color: white;
+	}
+
+	.row {
+		margin-top: 30px;
+
+		div {
+			padding: 5px;
+		}
+	}
+	img {
+		display: block;
+		max-width: 95%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+#main-carousel {
+	
+	.carousel-control {
+		max-width: 30px;
+
+		  // Set gradients for backgrounds
+		&.left {
+			background: transparent;
+		}
+		&.right {
+			background: transparent;
+		}
+	}
+
+	
+	h1, .h1 {
+		font-size: (@font-size-base * 3.5);
+		font-weight: 700;
+		
+		color: @brand-primary;
+	}
+
+	.img-left {
+
+	}
+	.img-center {
+		left: auto;
+		right: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.img-right {
+		left: auto;
+		right: 0;
+		margin-left: auto;
+		margin-right: 0;
+	}
+}
+
+.homepage {
+	h3 {
+		font-weight: 700;
+	}
+
+	// Adddress formating
+	.vcard {
+		.country-name {
+			display: none;
+		}
+	}
+}

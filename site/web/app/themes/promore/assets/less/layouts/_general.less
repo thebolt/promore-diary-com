@@ -1,0 +1,25 @@
+// Content wrapper
+.wrap { 
+	background-color: white;
+
+	padding-top: 5px;
+	padding-bottom: 10px;
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	// Corners
+	border-radius: 10px;
+
+	// Drop shadows
+	@shadow-offs: 3px;
+	@shadow-blur: 3px;
+	@shadow-pull: -2px;
+	@shadow-color: @gray;
+	box-shadow: 
+		@shadow-offs 0px @shadow-blur @shadow-pull @shadow-color,
+		-@shadow-offs 0px @shadow-blur @shadow-pull @shadow-color;
+}
+
+// Main content area
+.main { }
