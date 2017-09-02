@@ -1,0 +1,9 @@
+- name: Run NPM install
+  command: npm install --silent
+  args:
+    chdir: "{{ deploy_helper.new_release_path }}/web/app/themes/promore"
+
+- name: Run grunt
+  command: "/usr/bin/env grunt build --gruntfile {{ deploy_helper.new_release_path }}/web/app/themes/promore/Gruntfile.js"
+  args:
+    chdir: "{{ deploy_helper.new_release_path }}/web/app/themes/promore"
