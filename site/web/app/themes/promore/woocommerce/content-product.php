@@ -20,7 +20,7 @@ if ( empty( $woocommerce_loop['loop'] ) ) {
 
 // Store column count for displaying the grid
 if ( empty( $woocommerce_loop['columns'] ) ) {
-	$woocommerce_loop['columns'] = apply_filters( 'loop_shop_columns', 4 );
+	$woocommerce_loop['columns'] = apply_filters( 'loop_shop_columns', 12 );
 }
 
 // Ensure visibility
@@ -44,7 +44,7 @@ if ( 0 == $woocommerce_loop['loop'] % $woocommerce_loop['columns'] ) {
 	$woocommerce_loop['last'] = true;
 }
 
-$classes[] = 'col-md-3 col-sm-6';
+$classes[] = 'col-md-4 col-sm-6';
 
 if ($woocommerce_loop['first'])
 	echo "<div class=\"row product-row\">";
@@ -52,12 +52,12 @@ if ($woocommerce_loop['first'])
 <div <?php post_class( $classes ); ?>>
 	<div class="cat-product-item">
 	<?php do_action( 'woocommerce_before_shop_loop_item' ); ?>
-	
+
 	<a href="<?php the_permalink(); ?>">
 
 		<?php
 			echo woocommerce_get_product_thumbnail('shop_catalog');
-		?> 
+		?>
 
 		<div class="cat-product-info">
 				<span class="cat-product-title"><?php the_title(); ?></span>

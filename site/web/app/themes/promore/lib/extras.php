@@ -36,7 +36,7 @@ add_action('wp_print_styles', 'load_fonts');
 // Add an extra wider product thumbnail
 function setup_extra_thumbnail() {
 	$shop_catalog	= wc_get_image_size( 'shop_catalog_wide' );
-	add_image_size( 'shop_catalog_wide', $shop_catalog['width'], $shop_catalog['height'], $shop_catalog['crop'] );
+	add_image_size( 'shop_catalog_wide', $shop_catalog['width']*2, $shop_catalog['height'], $shop_catalog['crop'] );
 }
 add_action('after_setup_theme', 'setup_extra_thumbnail' );
 
@@ -56,9 +56,9 @@ add_filter('woocommerce_get_image_size_shop_catalog_wide', 'get_image_size_shop_
 add_filter('woocommerce_show_page_title', '__return_false');
 remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_title', 5);
 
-// Removes tabs from their original loaction 
+// Removes tabs from their original loaction
 remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10 );
-// Inserts tabs under the main right product content 
+// Inserts tabs under the main right product content
 add_action( 'woocommerce_single_product_summary', 'woocommerce_output_product_data_tabs', 60 );
 // Remove related products
 remove_action('woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20);
