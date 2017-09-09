@@ -6,7 +6,6 @@ wordpress_sites:
   promore-diary.com:
     site_hosts:
       - canonical: promore.dev
-        redirects:
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     admin_email: marten@promore-diary.com
     multisite:
